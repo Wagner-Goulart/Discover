@@ -63,3 +63,12 @@ function Person (name) {
 const wagner = new Person ('Wagner')
 const goulart = new Person ('Goulart')
 console.log(wagner.bebendo())
+
+
+let word = 'Olá'
+
+if(word.length % 2 === 0) {
+    console.log('Par')
+} else {
+    console.log('Impar')
+}
